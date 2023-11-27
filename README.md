@@ -11,7 +11,7 @@ Your submission must satisfy the following requirements:
 * R7. Assume that there are nested directories in the input path.
 * R8. The function `collect_class_forest(...)` takes a path of a directory containing multiple java source code files, and produces a map of classes. The keys of the map are root classes that have no parent classes and have at least one child class. Each child class can have a set of children classes if the class has generalization relationships with other classes. If the class has no more children classes, an empty dictionary (`{}`) should be added at the end.
 * R9. The function `compute_unimplemented(...)` takes a path of a directory containing multiple java source code files, and produces a set of interfaces. The interfaces are not implemented by any class in the files or any of their descendants are not implemented by any class in the files.
-
+* R10. The returned value of the above functions should include **ONLY** classes and interfaces defined in the java files.
 
 ## Note:
 
