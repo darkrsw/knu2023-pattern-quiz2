@@ -1,4 +1,4 @@
-from app_analyzer import collect_class_forest
+from app_analyzer import collect_class_forest, compute_unimplemented
 
 test_input_path = "./src/"
 test_input_path2 = "./src2/"
