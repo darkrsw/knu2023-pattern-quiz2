@@ -2,7 +2,7 @@
 
 Your submission must satisfy the following requirements:
 
-* R1. Shall initialize your assignment repository from
+* R1. Shall initialize your assignment repository from https://classroom.github.com/a/wHf5H3JV
 * R2. Write your `app_analyzer.py` in the repository.
 * R3. Test your `app_analyzer.py` by using `pytest`.
 * R4. You need to let your TA know your repository URL and your student ID together via Slack.
@@ -11,7 +11,7 @@ Your submission must satisfy the following requirements:
 * R7. Assume that there are nested directories in the input path.
 * R8. The function `collect_class_forest(...)` takes a path of a directory containing multiple java source code files, and produces a map of classes. The keys of the map are root classes that have no parent classes and have at least one child class. Each child class can have a set of children classes if the class has generalization relationships with other classes. If the class has no more children classes, an empty dictionary (`{}`) should be added at the end.
 * R9. The function `compute_unimplemented(...)` takes a path of a directory containing multiple java source code files, and produces a set of interfaces. The interfaces are not implemented by any class in the files or any of their descendants are not implemented by any class in the files.
-* R10. The returned value of the above functions should include **ONLY** classes and interfaces defined in the java files.
+* R10. The returned value of the above functions should include **ONLY** classes and interfaces defined in the java files; i.e., if a parent class of a class is not defined in the java files, then the class is regarded as a root class.
 
 ## Note:
 
